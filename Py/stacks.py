@@ -24,8 +24,9 @@ def check_parentheses_balance(expression):
             stack.pop()
     return stack.is_empty()
 
-# Ejemplo de uso
-expression = "(a + b) * (c + d)"
+
+expression = input("Introduce una expresión: ")
+
 if check_parentheses_balance(expression):
     print("Los paréntesis están balanceados.")
 else:
