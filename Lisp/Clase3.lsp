@@ -1,7 +1,7 @@
 ;(defun read()
-   ; (print "Dame un valor:")
-  ;  (setq a (read))
- ;   (format t "Hola mundo")
+; (print "Dame un valor:")
+;  (setq a (read))
+;   (format t "Hola mundo")
 ;)
 ;car saca la cabeza de la lista  se pude combinar por ejemplo caaar hasta 3 a y car cdr -> cadr
 ;cdr saca la cola de la lista 
