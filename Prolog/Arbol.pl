@@ -475,9 +475,9 @@ madre(isabel, jesusjr).
 madre(isabel, juanManuel).
 madre(isabel, adriana).
 
-madre(fidelina, veronicaP)
-madre(fidelina, dianaLaura)
-madre(fidelina, fannyLucero)
+madre(fidelina, veronicaP).
+madre(fidelina, dianaLaura).
+madre(fidelina, fannyLucero).
 
 madre(maria, luis).
 madre(maria, angel).
@@ -571,6 +571,29 @@ madre(ximena, emily).
 madre(ximena, sofi).
 madre(ximena, pending).
 
+%REGLAS
+
+%Regla para abuelo
+abuelo(X,Y):- padre(X,Z) , padre(Z,Y).
+
+%Regla para hermano
+hermano(X, Y) :- padre(P, X), padre(P, Y), madre(M, X), madre(M, Y), X \= Y.
+
+% Regla para tío
+tio(Tio, Sobrino) :- 
+    hermano(Tio, Padre), 
+    padre(Padre, Sobrino).
+
+% Regla para primo
+primo(Primo, Primo2) :- 
+    padre(Padre1, Primo), 
+    padre(Padre2, Primo2), 
+    hermano(Padre1, Padre2);
+    madre(madre, Primo), 
+    madre(madre1, Primo2), 
+    hermano(Padre1, Padre2);
+    madre(madre, Primo),
+    madre(padre, Primo2).
 
 
 
