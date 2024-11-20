@@ -27,23 +27,6 @@ template([hola, _], ['Hola', 'como', estas, '?'], []).
 template([buendia, _], ['Buendia', 'Como', estas, '?'], []).
 template([_,bocho, _], ['Safo'], []).
 template([_,safo, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
-template([_,bocho, _], ['Safo'], []).
 
 template([yo, s(_), yo, soy, s(_),'.'], [por, que, 0, eres, 1, '?'], [1, 4]).
 template([yo, s(_), tu, '.'], [why, do, you, 0, me ,'?'], [1]).
