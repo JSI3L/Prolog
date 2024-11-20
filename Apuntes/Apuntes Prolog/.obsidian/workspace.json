@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "79884a94be02dc45",
+    "type": "split",
+    "children": [
+      {
+        "id": "93bbe88ce375a0a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f2d98e291fbb4d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ejercicios.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ejercicios"
+            }
+          },
+          {
+            "id": "97ed66f8585ee4a5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d527d8bf63c3845",
+    "type": "split",
+    "children": [
+      {
+        "id": "9be9ec08342ddea2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "603d55ad1bb7b1b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "7ec569cb3c682c3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "78d0c5a98cb3187b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "adb2f3a696ea6cab",
+    "type": "split",
+    "children": [
+      {
+        "id": "7535ecbb2494070b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08d7c588d44406d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ejercicios.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Ejercicios"
+            }
+          },
+          {
+            "id": "7c679aa77f581d20",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ejercicios.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Ejercicios"
+            }
+          },
+          {
+            "id": "d3d40ffaa7ce66b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "5aeef014b17651d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ejercicios.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Ejercicios"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "97ed66f8585ee4a5",
+  "lastOpenFiles": [
+    "Ejercicios.md",
+    "Funciones nativas para listas en Prolog.md",
+    "2024-10-31.md",
+    "2024-10-30.md",
+    "Bienvenido.md"
+  ]
+}
